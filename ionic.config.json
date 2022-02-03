@@ -1,0 +1,7 @@
+{
+  "name": "weekly-menu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
