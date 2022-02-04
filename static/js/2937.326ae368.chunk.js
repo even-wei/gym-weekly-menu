@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgym_weekly_menu=self.webpackChunkgym_weekly_menu||[]).push([[2937],{2937:function(e,n,u){u.r(n),u.d(n,{ion_ripple_effect:function(){return c.R}});var c=u(2091);u(4039),u(323)}}]);
