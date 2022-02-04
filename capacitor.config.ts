@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'weekly-menu',
+  appName: 'gym-weekly-menu',
   webDir: 'build',
   bundledWebRuntime: false
 };
