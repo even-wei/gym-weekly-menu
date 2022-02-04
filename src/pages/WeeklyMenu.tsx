@@ -13,7 +13,7 @@ const WeeklyMenu: React.FC = () => {
     };
   const cards = Object.keys(moves).map((category: string) => {
     const items = moves[category].map((item: string) => (
-      <IonItem href="#" className="ion-activated">
+      <IonItem className="ion-activated">
         <IonIcon icon={walk} slot="start" />
         <IonLabel>{item}</IonLabel>
       </IonItem>
