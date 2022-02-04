@@ -1,8 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardTitle, IonItem, IonIcon, IonLabel, IonButton } from '@ionic/react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
-import './Tab1.css';
+import './WeeklyMenu.css';
 
-const Tab1: React.FC = () => {
+const WeeklyMenu: React.FC = () => {
   const moves: { [key:string]: string[]; } = {
     '核心（腹部）': ['四足跪姿髖伸展', '對側前伸', '站姿的劈砍', '直線單跪姿劈砍', '弓箭步姿勢的劈砍'],
     '上肢推（腹部/肩部）': ['半起身', '起身', '弓箭步姿勢的舉起', '單跪姿的輪替壺鈴肩推', '高分腿的壺鈴肩推'],
@@ -40,4 +40,4 @@ const Tab1: React.FC = () => {
   );
 };
 
-export default Tab1;
+export default WeeklyMenu;

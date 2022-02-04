@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
+import WeeklyMenu from './pages/WeeklyMenu';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -39,17 +39,20 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/gym-weekly-menu/weekly-menu">
+            <WeeklyMenu/>
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/gym-weekly-menu/weekly-menu" />
+          </Route>
+          <Route exact path="/gym-weekly-menu">
+            <Redirect to="/gym-weekly-menu/weekly-menu" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="weekly-menu" href="/gym-weekly-menu/weekly-menu">
             <IonIcon icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+            <IonLabel>本週菜單</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
