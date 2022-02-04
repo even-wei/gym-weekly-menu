@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gym-weekly-menu/static/css/main.26caf00a.css",
-    "main.js": "/gym-weekly-menu/static/js/main.6c215fb0.js",
+    "main.js": "/gym-weekly-menu/static/js/main.0170eb94.js",
     "static/js/738.132d93be.chunk.js": "/gym-weekly-menu/static/js/738.132d93be.chunk.js",
     "static/js/1609.7e93cc93.chunk.js": "/gym-weekly-menu/static/js/1609.7e93cc93.chunk.js",
     "static/js/3305.099adec6.chunk.js": "/gym-weekly-menu/static/js/3305.099adec6.chunk.js",
@@ -67,7 +67,7 @@
     "service-worker.js": "/gym-weekly-menu/service-worker.js",
     "index.html": "/gym-weekly-menu/index.html",
     "main.26caf00a.css.map": "/gym-weekly-menu/static/css/main.26caf00a.css.map",
-    "main.6c215fb0.js.map": "/gym-weekly-menu/static/js/main.6c215fb0.js.map",
+    "main.0170eb94.js.map": "/gym-weekly-menu/static/js/main.0170eb94.js.map",
     "738.132d93be.chunk.js.map": "/gym-weekly-menu/static/js/738.132d93be.chunk.js.map",
     "1609.7e93cc93.chunk.js.map": "/gym-weekly-menu/static/js/1609.7e93cc93.chunk.js.map",
     "4369.edf16bb8.chunk.js.map": "/gym-weekly-menu/static/js/4369.edf16bb8.chunk.js.map",
@@ -124,6 +124,6 @@
   },
   "entrypoints": [
     "static/css/main.26caf00a.css",
-    "static/js/main.6c215fb0.js"
+    "static/js/main.0170eb94.js"
   ]
 }
