@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardTitle, IonItem, IonIcon, IonLabel, IonButton } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardTitle, IonItem, IonChip, IonIcon, IonLabel, IonButton } from '@ionic/react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
 import './WeeklyMenu.css';
 
@@ -30,10 +30,22 @@ const WeeklyMenu: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>本週菜單</IonTitle>
+          <IonTitle>自主訓練</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        <IonCard>
+          <IonCardHeader>
+            <IonCardTitle>
+              訓練小學堂
+              <IonChip color="primary">
+                <IonLabel>值日生：丹丹 教練</IonLabel>
+              </IonChip>
+            </IonCardTitle>
+            <IonItem>一組動作<b>１５下⨉３組 </b>(可依個人調整)</IonItem>
+            <IonItem>不清楚的動作可以詢問值日生 :D</IonItem>
+          </IonCardHeader>
+        </IonCard>
         {cards}
       </IonContent>
     </IonPage>
